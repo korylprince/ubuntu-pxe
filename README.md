@@ -18,8 +18,8 @@ These aren't copy and paste commands. Instead it's more of an outline to put eve
 
 
     # get resources
-    mkdir /opt/ubuntucore
-    cd /opt/ubuntucore
+    mkdir /opt/ubuntu_core
+    cd /opt/ubuntu_core
     mkdir root
     wget <core.tgz>
     wget <kernel.deb>
@@ -101,7 +101,7 @@ From my research, adding the following line to your menu entry should make you c
 In actuality, that only works sometimes. It's not too hard to get it working all the time.
 
     # get to working directory
-    cd /opt/ubuntucore
+    cd /opt/ubuntu_core
 
     #chroot
     ./chroot.sh
