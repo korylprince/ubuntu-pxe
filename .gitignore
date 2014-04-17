@@ -1,0 +1,4 @@
+deploy.sh
+root/*
+initrd/*
+*.swp
