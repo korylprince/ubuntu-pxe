@@ -130,6 +130,7 @@ In actuality, that only works sometimes. It's not too hard to get it working all
 
 * Don't run `apt-get upgrade` or risk killing your rootfs with packages not meant to be installed in Ubuntu Core.
 * Having trouble installing packages with `apt-get` giving you weird messages? Make sure `/dev`, `/sys`, and `/proc` are mounted. Look at the comments in `chroot.sh` for help.
+* `mount_to_ram.sh` creates a RAM disk of `512MB` to copy the rootfs into. If you need more or less just edit that script and rebuild.
 
 ## Copyright
 
